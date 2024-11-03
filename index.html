@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="portfolio-container" id="portfolio-container">
+        <ul class="navlist">
+            <li><a href="#portfolio-container">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="left-container">
+            <div class="icons">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/maheshraj04/"><i class="fa-brands fa-linkedin-in"></i></a> 
+                <a href="https://github.com/Maheshraj04"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/_raj__mahesh"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="content">
+                <p class="intro">Hi! I am <span id="name">Mahesh Raj</span></p>
+                <h1>Web Developer.</h1>
+                <p class="detail">This is my official portfolio website to showcase all
+                  <br> details and work experiences.</p>
+                <div class="btn-container">
+                    <button>
+                        <p>Hire Me</p>
+                    </button>
+                    <button>
+                        <p>View Project</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right-container"></div>
+        <div class="design">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-cal-1">
+                    <img src="image/profile-pic.png" alt="Profile Picture">
+                </div>
+                <div class="about-cal-2">
+                    <h1 class="sub-title">About<span> Me</span></h1>
+                    <p>"I’m a first-year B.Tech student in Computer Science, passionate about coding and exploring new technologies. I’m currently learning HTML, CSS, and JavaScript and enjoy building projects that solve real-world problems. This portfolio showcases my journey and skills as I grow in the tech field."</p>
+                    <div class="tab-title">
+                        <p class="link-tab active-link" onclick="openTab(event, 'Skills')">Skills</p>
+                        <p class="link-tab" onclick="openTab(event, 'Education')">Education</p>
+                        <p class="link-tab" onclick="openTab(event, 'Experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Designing web pages</li>
+                            <li><span>JavaScript/Python</span><br>Responsive web pages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>🚀 B.Tech CSE <br>1st Year Student 💻 <br>Aspiring Software Developer 🌱 <br>Passionate about coding, open-source, and learning new technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024</span><br>Pursuing B.Tech CSE</li>
+                        </ul>
+                        <!-- <div class="btn"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------services section code by Mahesh------------------- -->
+ <div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My <span id="name">Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I design and develop responsive websites using HTML, CSS, and JavaScript.
+                    My focus is on creating user-friendly interfaces that work seamlessly across devices. </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores perspiciatis,
+                labore perferendis repellendus tempore consectetur </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores perspiciatis,
+                labore perferendis repellendus tempore consectetur </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- -----------------------------portfolio---------------------------------------------------------- -->
+
+
+
+ 
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My</span> Work</h1>
+        <div class="work-list">
+            <div class="work"><img src="image/About section.jpg" alt="">
+                <div class="layers">
+                    <h3>Empty</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quae non excepturi assumenda repellendus! Quas unde placeat quia s</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work"><img src="image/About section.jpg" alt="">
+                <div class="layers">
+                    <h3>Empty</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quae non excepturi assumenda repellendus! Quas unde placeat quia s</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work"><img src="image/About section.jpg" alt="">
+                <div class="layers">
+                    <h3>Empty</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quae non excepturi assumenda repellendus! Quas unde placeat quia s</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+<!-- -----------------------------contact------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span id="con">Contact</span>Me!</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> maheshraj8282@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 7033064926</p>
+                <a href="" class="btn btn2" download>Donwload CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="10" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+   
+</div>
+<!-- <div class="copyright">
+    <p>Copyright &copy;2024 by Mahesh |All Right Reserved.<i class="fa-solid fa-heart"></i></p>
+</div> -->
+
+<footer>
+    <div class="top">
+       <a href="#portfolio-container"><i class="fa-solid fa-arrow-up"></i></a> 
+    </div>
+    <p>Copyright &copy;2024 by Mahesh |All Right Reserved.<i class="fa-solid fa-heart"></i></p>
+</footer>
+
+  <!-- ---------------------------------js----------------------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("link-tab");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(event, tabName) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWM-VqznGdnuVcAD8wqYY3O7Siqck_R7s3qxYKSHcCTaHk8-J10xiygREejN65M7Fm/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg") // Fixed this line
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
